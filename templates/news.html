@@ -1,0 +1,10 @@
+{% extends 'baseNews.html' %}
+
+{% block title %}
+    {{ new.title }}
+{% endblock %}
+
+
+{% block content %}
+   {{ new.content|safe }}
+{% endblock %}
